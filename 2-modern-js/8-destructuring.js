@@ -16,6 +16,19 @@ const { PI, E, SQRT2 }  = Math;
 // const circleArea = ({ radius }) =>
 //   (PI * radius * radius).toFixed(2);
 //
-// console.log(
-//   circleArea(circle)
-// );
+// console.log(circleArea(circle));
+
+
+// With default option
+// const circleArea = ({ radius }, { precision = 2 }) =>
+//   (PI * radius * radius).toFixed(precision);
+//
+// console.log(circleArea(circle));
+
+// With default option for the second parameter
+// const circleArea = ({ radius }, { precision = 2 } = {}) =>
+//   (PI * radius * radius).toFixed(precision);
+//
+// console.log(circleArea(circle));
+
+//const [first, second, ,forth] = [10, 20, 30, 40];

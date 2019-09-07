@@ -12,5 +12,7 @@ const testerObj = {
   },
 };
 
+// Associated to testerObj
 testerObj.func1();
+// 
 testerObj.func2();

@@ -1,7 +1,9 @@
+// Regular function
 const X = function () {
   // "this" here is the caller of X
 };
 
+// Arrow function
 const Y = () => {
   // "this" here is NOT the caller of Y
 
